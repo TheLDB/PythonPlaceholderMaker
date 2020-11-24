@@ -25,5 +25,5 @@ else:
 # r = requests.get("https://picsum.photos/" + sizeOne + "/" + sizeTwo + "/?blur")
 urllib.request.urlretrieve(str(r.url), fileName + ".png")
 urllib.request.urlretrieve(str(newR.url), fileName + ".txt")
-print("Image Saved COMMIT")
+print("Image Saved")
 print(split)
